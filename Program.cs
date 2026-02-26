@@ -1,5 +1,5 @@
 ﻿DateTime Dato = DateTime.Now;
-Console.WriteLine("What would you like to be named?");
+Console.WriteLine("What would you like to be called?");
 string username = Console.ReadLine();
 Console.WriteLine("Do you have any hobbies?");
 string hobbies = Console.ReadLine();
@@ -11,7 +11,7 @@ if (hobbies == "No" || hobbies == "no")
 }
 else
 {
-    output +=" I hope you get to enjoy " + hobbies + " today :)";
+    output +=" I hope you get to enjoy some " + hobbies + " today :)";
 }
 
 Dictionary<string, string> greetings = new Dictionary<string, string>();
