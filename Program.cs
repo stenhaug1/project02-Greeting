@@ -11,7 +11,7 @@ if (hobbies == "No" || hobbies == "no")
 }
 else
 {
-    output = output + " I hope you get to enjoy " + hobbies + " today :)";
+    output +=" I hope you get to enjoy " + hobbies + " today :)";
 }
 
 Dictionary<string, string> greetings = new Dictionary<string, string>();
