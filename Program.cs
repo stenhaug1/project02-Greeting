@@ -5,7 +5,7 @@ Console.WriteLine("Do you have any hobbies?");
 string hobbies = Console.ReadLine();
 var hour = Dato.Hour;
 var output = $" {username}";
-if (hobbies == "No" || hobbies == "no")
+if (string.IsNullOrWhiteSpace(hobbies) ||hobbies == "No" || hobbies == "no")
 {
 
 }
